@@ -14,6 +14,17 @@ public class Replit68 {
             }
             System.out.println();
         }
+		System.out.println("--------------------");
+		
+		for(int i=0; i<1; i++){
+		    for(int y=0; y<1; y++){
+		      System.out.println("$$$$");
+		      System.out.println("$  $");
+		    }
+		    System.out.println("$  $");
+		    System.out.println("$$$$");
+		  }
+	
     }
 }
 
