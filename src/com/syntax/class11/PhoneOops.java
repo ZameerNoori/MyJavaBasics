@@ -1,6 +1,6 @@
 package com.syntax.class11;
 
-public class Phone {
+public class PhoneOops {
 		/*
 		 * Create a Class “Phone”.
 		 * Create 3 Objects of it: iPhone, Pixel, Samsung with specific  attributes and behaviors.
@@ -18,7 +18,7 @@ public class Phone {
 		System.out.println("The best phone ever");
 	}
 	public static void main(String[] args) {
-		Phone iPhone=new Phone();
+		PhoneOops iPhone=new PhoneOops();
 		
 		iPhone.brand="7 plus";
 		iPhone.color="Black";

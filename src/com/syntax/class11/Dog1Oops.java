@@ -1,6 +1,6 @@
 package com.syntax.class11;
 
-public class Dog1 {
+public class Dog1Oops {
 	/*
 	 * Create a Dog Class and create 3 different objects of it: 
 	 * Husky, Bulldog, labrador  with specific  attributes and behaviors.
@@ -18,7 +18,7 @@ public class Dog1 {
 		System.out.println("I am scared dog");
 	}
 	public static void main(String[] args) {
-		Dog1 bullDog=new Dog1();
+		Dog1Oops bullDog=new Dog1Oops();
 		
 		bullDog.name="Scooby";
 		bullDog.color="Tan";
@@ -28,7 +28,7 @@ public class Dog1 {
 		bullDog.agressiveDog();
 		bullDog. scaredOfDog();
 		
-		Dog1 labrador=new Dog1();
+		Dog1Oops labrador=new Dog1Oops();
 		labrador.name="Tom";
 		labrador.color="Gray";
 		labrador.weight=150;
@@ -37,7 +37,7 @@ public class Dog1 {
 		labrador.agressiveDog();
 		labrador. scaredOfDog();
 		
-		Dog1 Husky=new Dog1();
+		Dog1Oops Husky=new Dog1Oops();
 		Husky.name="Jerry";
 		Husky.color="White";
 		Husky.weight=155;

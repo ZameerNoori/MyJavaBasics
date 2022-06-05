@@ -1,5 +1,5 @@
 package com.syntax.class11;
-public class Car {
+public class CarOops {
 	
 	String model;
 	String make;
@@ -17,7 +17,7 @@ public class Car {
 	}
 	
 	public static void main(String[] args) {
-		Car bmw=new Car();
+		CarOops bmw=new CarOops();
 		bmw.model="X6";
 		bmw.make="BMW";
 		bmw.color="Black";
@@ -29,7 +29,7 @@ public class Car {
 		bmw.reverse();
 		
 		
-		Car lexus=new Car();
+		CarOops lexus=new CarOops();
 		lexus.make="Lexus";
 		lexus.model="LFA";
 		lexus.color="White";

@@ -2,7 +2,7 @@ package com.syntax.class11;
 
 import java.util.Scanner;
 
-public class Dog {
+public class DogOops {
 	//attributes how the object will look like
 	String name;
 	int age;
@@ -25,7 +25,7 @@ public class Dog {
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);  // ctrl+ click on windows cmd+click on mac
 		scanner.next();
-		Dog jimmy= new Dog(); //creating an object and storing in a variable
+		DogOops jimmy= new DogOops(); //creating an object and storing in a variable
 		jimmy.name="Jimmy";
 		jimmy.age=6;
 		jimmy.weight=16;
