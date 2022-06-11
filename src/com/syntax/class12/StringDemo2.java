@@ -7,7 +7,7 @@ public class StringDemo2 {
 		String firstName="Adem";
 		String lastName=" jones";
 		String fullName=firstName+lastName;// always always prefer this
-		String fullName2=firstName.concat(lastName);// never use this because it can lead you to nullpointer exception
+		String fullName2=firstName.concat(lastName);// never use this because it can lead you to null pointer exception
 		System.out.println(fullName2);
 		System.out.println(fullName);
 		
